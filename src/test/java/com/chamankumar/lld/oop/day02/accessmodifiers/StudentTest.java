@@ -16,7 +16,12 @@ public class StudentTest {
         assertNull(student.getName(), "If default ctor is called, the instance name must be null");
         assertEquals(StudentStatus.ACTIVE, student.getStatus(),
                 "If default ctor is called, the status should be ACTIVE");
+    }
 
-
+    @Test
+    public void testInvalidPsp() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Student("Sher lock", "s@221.com", "1", 1000.0, StudentStatus.ACTIVE);
+        }, "An IllegalArgumentException should be thrown for invalid PSP");
     }
 }
