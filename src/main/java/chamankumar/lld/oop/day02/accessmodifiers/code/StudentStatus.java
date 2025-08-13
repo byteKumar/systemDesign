@@ -7,7 +7,7 @@
  * the possible statuses of a student, ensuring type safety and better readability
  * in the code.
  */
-package chamankumar.lld.oop.day02.accessmodifiers;
+package chamankumar.lld.oop.day02.accessmodifiers.code;
 
 public enum StudentStatus {
     // The student is currently active and participating

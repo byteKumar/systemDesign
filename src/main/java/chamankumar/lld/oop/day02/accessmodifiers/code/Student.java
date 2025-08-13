@@ -1,6 +1,5 @@
-package chamankumar.lld.oop.day02.accessmodifiers;
+package chamankumar.lld.oop.day02.accessmodifiers.code;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

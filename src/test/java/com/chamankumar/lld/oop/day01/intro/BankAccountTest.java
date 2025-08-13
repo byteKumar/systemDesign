@@ -2,7 +2,7 @@ package com.chamankumar.lld.oop.day01.intro;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import chamankumar.lld.oop.day01.intro.BankAccount;
+import chamankumar.lld.oop.day01.intro.code.BankAccount;
 import org.junit.jupiter.api.Test;
 
 public class BankAccountTest {

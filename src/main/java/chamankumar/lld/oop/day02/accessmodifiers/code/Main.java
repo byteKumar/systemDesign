@@ -1,4 +1,4 @@
-package chamankumar.lld.oop.day02.accessmodifiers;
+package chamankumar.lld.oop.day02.accessmodifiers.code;
 
 /**
  * The Main class serves as the entry point for the application.

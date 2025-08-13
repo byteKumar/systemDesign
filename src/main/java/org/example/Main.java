@@ -1,6 +1,6 @@
 package org.example;
 
-import chamankumar.lld.oop.day02.accessmodifiers.Student;
+import chamankumar.lld.oop.day02.accessmodifiers.code.Student;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

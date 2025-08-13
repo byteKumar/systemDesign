@@ -2,8 +2,8 @@ package com.chamankumar.lld.oop.day02.accessmodifiers;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import chamankumar.lld.oop.day02.accessmodifiers.Student;
-import chamankumar.lld.oop.day02.accessmodifiers.StudentStatus;
+import chamankumar.lld.oop.day02.accessmodifiers.code.Student;
+import chamankumar.lld.oop.day02.accessmodifiers.code.StudentStatus;
 import org.junit.jupiter.api.Test;
 
 public class StudentTest {

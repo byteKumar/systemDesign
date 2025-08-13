@@ -1,4 +1,4 @@
-package chamankumar.lld.oop.day01.intro;
+package chamankumar.lld.oop.day01.intro.code;
 
 /**
  * The Main class serves as the entry point for the application.

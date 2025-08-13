@@ -1,4 +1,4 @@
-package chamankumar.lld.oop.day01.intro;
+package chamankumar.lld.oop.day01.intro.code;
 
 /**
  * The BankAccount class represents a simple model of a bank account.
