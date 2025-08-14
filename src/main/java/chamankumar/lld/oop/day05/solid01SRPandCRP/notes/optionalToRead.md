@@ -1,0 +1,2 @@
+## https://www.boldare.com/blog/solid-cupid-grasp-principles-object-oriented-design/#what-is-solid-and-why-is-it-more-than-just-an-acronym?-solid-vs.-cupid---is-the-new-always-better?
+## https://medium.com/swlh/java-packages-and-the-single-responsibility-principle-a23e151719d1
