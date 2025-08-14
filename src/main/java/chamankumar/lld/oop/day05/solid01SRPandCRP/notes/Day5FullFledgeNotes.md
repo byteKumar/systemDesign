@@ -136,7 +136,7 @@ The above method is doing much more than the name suggests. It is connecting to 
 * `Utility classes` - Utility classes are classes that contain only static methods which are used to perform some utility functions. Have a look at the utility package of Java [here](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html). There is just way too many responsibilities of this package.
 
 ### Side-assignment alert
-* Identify the violations of SRP in [this](../src/main/java/chamankumar/lld/oop/day05/solid01SRPandCRP/assignments/Invoice.java) class.
+* Identify the violations of SRP in [Invoice.java](/src/main/java/chamankumar/lld/oop/day05/solid01SRPandCRP/assignments/Invoice.java) class.
 * Refactor the code to follow SRP.
 
 --- 
