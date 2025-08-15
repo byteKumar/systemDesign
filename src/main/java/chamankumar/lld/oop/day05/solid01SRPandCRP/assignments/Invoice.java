@@ -6,8 +6,6 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.awt.print.Book;
-
 @Getter
 @AllArgsConstructor
 public class Invoice {
@@ -20,13 +18,13 @@ public class Invoice {
     private double total; // Will not generate a getter
 
     public Double getTotal() {
-        //double price = ((book.getPrice() - book.getPrice() * discountRate) * this.quantity);
-        //return price * (1 + taxRate);
-        return 0.0;
+        double price = ((book.getPrice() - book.getPrice() * discountRate) * this.quantity);
+        return price * (1 + taxRate);
+        //return 0.0;
     }
 
     public void printInvoice() {
-        //System.out.println(quantity + "x " + book.getName() + " " + book.getPrice() + "$");
+        System.out.println(quantity + "x " + book.getName() + " " + book.getPrice() + "$");
         System.out.println("Discount Rate: " + discountRate);
         System.out.println("Tax Rate: " + taxRate);
         System.out.println("Total: " + total);
